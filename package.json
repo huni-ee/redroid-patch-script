@@ -1,0 +1,19 @@
+{
+  "name": "redroid-Patch-script",
+  "version": "0.1.0",
+  "private": true,
+  "author": "huni-ee",
+  "license": "MIT",
+  "description": "Patch official ReDroid images with version-appropriate GApps and Magisk.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.0",
+    "commander": "^13.1.0"
+  }
+}
